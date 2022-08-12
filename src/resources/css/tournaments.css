@@ -1,0 +1,186 @@
+.table-responsive {
+    margin-bottom: 4em;
+
+}
+
+.table-horario {
+    color: #fff;
+}
+
+.table-horario thead th,
+.table-horario tbody td {
+    width: calc(100% / 4);
+    vertical-align: middle;
+
+}
+
+.table-horario tbody p {
+    text-align: center;
+}
+
+.td-light {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.td-bold {
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Trap' !important;
+    font-size: 16px;
+}
+
+.bg-image {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #F6F5EC;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: contain;
+}
+
+.username {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.what-do-play h3 {
+    -webkit-text-stroke: 0.5px #F6F5EC;
+    color: transparent !important;
+    font-size: 2.5em;
+    width: max-content;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.partipantes-col {
+    display: flex;
+    padding: 0;
+}
+
+.metadata {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.metadata svg {
+    width: 23px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+body.tournaments.tournaments-module {
+    background-color: none !important;
+}
+
+.bracket-controls,
+a.watermark.logo-watermark {
+    display: none !important;
+}
+
+.val,
+.lol {
+    transition: all .3s ease;
+}
+
+.logos-riot-clasificar .val:hover {
+    fill: #FF4655;
+}
+
+.logos-riot-clasificar .lol:hover {
+    fill: #0BC6E3;
+}
+
+.owl-stage .owl-item:first-child {
+    display: none;
+}
+
+.tr-yellow {
+    background-color: #F6F5EC;
+    color: black;
+}
+
+.tabs-elo {
+    width: 75%;
+    margin: 6em auto;
+    border: 1px solid #000;
+    color: #000 !important;
+    border-radius: 50px;
+    border: none;
+}
+
+ul.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-item:first-child button {
+    border: none !important;
+}
+
+.tabs-elo:hover {
+    border: none;
+}
+
+.tabs-elo .nav-link {
+    color: #000 !important;
+    border-radius: 50px;
+
+}
+
+.tabs-elo .nav-link {
+    border: 1px solid #000 !important;
+    border-radius: 50px;
+}
+
+.tabs-elo .nav-link.active {
+    background-color: #000;
+    color: #F6F5EC !important;
+    border-radius: 50px;
+    border: none;
+
+}
+
+@media screen and (max-width: 420px) {
+    .partipantes-col {
+        flex-direction: column-reverse;
+        padding: 0 calc(var(--bs-gutter-x) * .5);
+    }
+
+    .what-do-play h3 {
+        font-size: 2em;
+    }
+
+
+
+    .table-horario {
+        overflow: scroll;
+        min-width: 750px;
+    }
+
+    .what-do-play {
+        display: none;
+    }
+
+    .tabs-elo {
+        width: 100%;
+        margin: 2em auto;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        padding: 4px 14px;
+    }
+
+    .nav-item{
+        margin-right: 5px;
+    }
+
+}

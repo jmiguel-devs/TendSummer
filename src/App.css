@@ -1,0 +1,369 @@
+.App-inner {
+  margin: 35px;
+  padding: 35px;
+  border: 2px solid #000;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+iframe.twitch {
+  width: 75%;
+  height: 742px;
+  margin: 175px auto 100px;
+  display: flex;
+}
+
+.lineBorder {
+  border: 2px solid #000;
+  width: 45%;
+  margin: auto;
+  height: 1000px;
+  position: absolute;
+  z-index: -1;
+  border-top-left-radius: 500px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-right-radius: 500px;
+}
+
+.wrapper-illu {
+  overflow: hidden;
+  width: 10000px;
+}
+
+.illu-3 {
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: -1;
+  top: 250px;
+  left: 20px;
+  transform: rotate(-211deg);
+  height: 100%;
+}
+
+.illu-1 {
+  position: absolute;
+  z-index: -2;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  right: 0px;
+  top: 900px;
+}
+
+.description-text {
+  margin-bottom: 2em;
+}
+
+
+.text-indent-p {
+  text-indent: 60px;
+}
+
+.App-inner-black {
+  background-color: #000;
+  color: #F6F5EC;
+  padding-top: 6em;
+}
+
+.title-white {
+  color: #F6F5EC;
+  font-size: 5em;
+  width: fit-content;
+}
+
+.text-juega {
+  column-count: 2;
+}
+
+.tienda-title {
+  text-align: right;
+  margin-top: 1em;
+  width: fit-content;
+}
+
+.circle-text-container {
+  background-color: #F6F5EC;
+  color: #000;
+  width: 120px;
+  border-radius: 100px;
+  position: relative;
+  animation: donar-btn-spin infinite 20s linear;
+  font-weight: 300!important;
+  margin-top: -50px;
+}
+
+.circle-text-container:hover {
+  animation: fast-spin 20s cubic-bezier(0, 0, 0, 1)
+}
+
+
+.col-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+  padding: 0 !important;
+}
+
+.hr-divisor {
+  width: 100%;
+  height: 2px !important;
+  background-color: #F6F5EC;
+  opacity: 1;
+}
+
+.hr-left {
+  margin-left: 1em;
+}
+
+.hr-right {
+  margin-right: 1em;
+}
+
+.img-tienda {
+  width: 100%;
+}
+
+.swiper-component {
+  margin-bottom: 4em;
+}
+
+.ver-clasificatorio-container {
+  margin-bottom: 3em;
+}
+
+.ver-clasificatorio {
+  font-size: 5em;
+  line-height: 0.8;
+  margin-bottom: 0.5em;
+}
+
+.ver-clasificatorio span {
+  font-size: 0.4em;
+}
+
+.logos-riot-clasificar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos-riot-clasificar a {
+  margin: 0 50px;
+}
+
+.comprar-container h3 {
+  font-size: 2.5em;
+  text-align: left;
+  margin-bottom: .5em;
+}
+
+.mautic {
+  width: 100%;
+  font-family: 'Work Sans';
+}
+
+.mauticform-label {
+  color: #F6F5EC;
+  text-align: left;
+}
+
+.mauticform-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.mauticform-row input,
+.mauticform-row select {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #F6F5EC;
+  border-radius: 0;
+  background-color: transparent;
+  margin-bottom: 2em;
+  color: #F6F5EC;
+  font-weight: 500;
+  font-family: 'Work Sans';
+}
+
+.mauticform-row option {
+  color: #000 !important;
+}
+
+.mauticform-button {
+  background-color: #F6F5EC !important;
+  color: #000 !important;
+  border-radius: 0;
+  margin-top: 2em;
+  cursor: none !important;
+}
+
+.form-section {
+  margin: 3em 0 !important;
+}
+
+.circle-text-container a{
+  color: #000!important;
+  font-weight: 300!important;
+}
+
+
+@keyframes donar-btn-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fast-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(1080deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+
+  .App-inner {
+    margin: 0;
+    border: none;
+    padding: var(--bs-gutter-x, .75rem);
+  }
+
+  .illu-3,
+  .illu-1 {
+    width: 90%;
+  }
+
+  .illu-3 {
+    height: 50%;
+    top: 20px;
+    left: -70px;
+  }
+
+  .illu-1 {
+    display: none;
+  }
+
+  .title-white {
+    font-size: 2em;
+    margin: 0;
+  }
+
+  .text-juega {
+    column-count: 1;
+  }
+
+  .App-inner-black {
+    padding-top: 50px;
+  }
+
+  .col-title {
+    margin-bottom: 0.6em;
+    padding: 0 calc(var(--bs-gutter-x) * .5) !important;
+  }
+
+  .circle-text-container {
+    width: 126px;
+  }
+
+  .circle-text-btn {
+    font-size: 0.8em;
+  }
+
+  .circle-text-container {
+    margin-left: calc(100% - 150px);
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .description-text {
+    padding: 0 !important;
+  }
+
+  .hr-left {
+    margin-left: 15px;
+  }
+
+  .hr-right {
+    margin-right: 15px;
+  }
+
+  .ver-clasificatorio {
+    font-size: 2.3em;
+    line-height: 0.9;
+  }
+
+  .logos-riot-clasificar a {
+    margin: 0 15px;
+  }
+
+  .logos-riot-clasificar svg {
+    width: 110px;
+  }
+
+  .ver-clasificatorio-container {
+    margin-bottom: 2em;
+  }
+
+  .comprar-container p {
+    margin-bottom: 3em;
+  }
+
+  .mauticform-button {
+    margin-top: 1em;
+  }
+
+}

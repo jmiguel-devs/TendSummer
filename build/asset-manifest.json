@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f965f03.chunk.css",
+    "main.js": "/static/js/main.1f21433f.chunk.js",
+    "main.js.map": "/static/js/main.1f21433f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.976a06c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.976a06c4.js.map",
+    "static/css/2.09fdd306.chunk.css": "/static/css/2.09fdd306.chunk.css",
+    "static/js/2.9585e948.chunk.js": "/static/js/2.9585e948.chunk.js",
+    "static/js/2.9585e948.chunk.js.map": "/static/js/2.9585e948.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.09fdd306.chunk.css.map": "/static/css/2.09fdd306.chunk.css.map",
+    "static/css/main.1f965f03.chunk.css.map": "/static/css/main.1f965f03.chunk.css.map",
+    "static/js/2.9585e948.chunk.js.LICENSE.txt": "/static/js/2.9585e948.chunk.js.LICENSE.txt",
+    "static/media/0.jpg": "/static/media/0.b129980e.jpg",
+    "static/media/1.jpg": "/static/media/1.942116a4.jpg",
+    "static/media/2.jpg": "/static/media/2.d2d95775.jpg",
+    "static/media/PayPal-Logo.29d94f7f.png": "/static/media/PayPal-Logo.29d94f7f.png",
+    "static/media/Sonilustra.929722bf.png": "/static/media/Sonilustra.929722bf.png",
+    "static/media/index.css": "/static/media/WorkSans-Medium.b0ad3154.woff2",
+    "static/media/illu-1.5797a3c1.png": "/static/media/illu-1.5797a3c1.png",
+    "static/media/illu-3.83f4e3ba.png": "/static/media/illu-3.83f4e3ba.png",
+    "static/media/juegaterapia.d80ac13b.png": "/static/media/juegaterapia.d80ac13b.png",
+    "static/media/market.a9888bcc.png": "/static/media/market.a9888bcc.png",
+    "static/media/vesper.628730b4.png": "/static/media/vesper.628730b4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.976a06c4.js",
+    "static/css/2.09fdd306.chunk.css",
+    "static/js/2.9585e948.chunk.js",
+    "static/css/main.1f965f03.chunk.css",
+    "static/js/main.1f21433f.chunk.js"
+  ]
+}

@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Trap';
+  src: url('resources/fonts/Trap-Black.woff2') format('woff2'),
+    url('resources/fonts/Trap-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('resources/fonts/WorkSans-Bold.woff2') format('woff2'),
+    url('resources/fonts/WorkSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('resources/fonts/WorkSans-Medium.woff2') format('woff2'),
+    url('resources/fonts/WorkSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('resources/fonts/WorkSans-Light.woff2') format('woff2'),
+    url('resources/fonts/WorkSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trap', 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F6F5EC !important;
+}
+
+code {
+  font-family: 'Work Sans', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-family: 'Work Sans' !important;
+  line-height: 2;
+  font-size: 1.2em;
+  text-align: left;
+  text-align: justify;
+}
+
+a {
+  color: #F6F5EC !important;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 420px) {
+
+  p {
+    font-size: 1em;
+    line-height: 1.8;
+  }
+}
+
+html, *{
+  cursor: none;
+}
+
+
